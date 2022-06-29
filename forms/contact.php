@@ -33,5 +33,5 @@
   // $contact->add_message( $_POST['message'], 'Message', 10);
 
   // echo $contact->send();
-  mail("thanunr5@gmail.com","My subject","hi");
+  echo mail("thanunr5@gmail.com","My subject","hi");
 ?>
