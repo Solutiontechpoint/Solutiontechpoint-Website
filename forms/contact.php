@@ -26,6 +26,7 @@
   // $contact->add_message( $_POST['message'], 'Message', 10);
 
   // echo $contact->send();
+  $headers = 'From: noreply @ company . com';
   $message = 'Name : '.$_POST['name'] .'\nEmail : '.$_POST['email'] .'\n\n'.$_POST['message'];
   echo mail($receiving_email_address, $_POST['subject'], $message, $headers);
 ?>
