@@ -26,7 +26,8 @@
   // $contact->add_message( $_POST['message'], 'Message', 10);
 
   // echo $contact->send();
-  $from = $_POST['email'];
+  //$from = $_POST['email'];
+  $from = 'Your Name <sitename@hostname.com>';
   $headers = "" .
            "Reply-To:" . $from . "\r\n" .
            "From:" . $from . "\r\n" .
