@@ -26,8 +26,7 @@
   // $contact->add_message( $_POST['message'], 'Message', 10);
 
   // echo $contact->send();
-  // $headers = 'From: '.$_POST['email'];
-  $headers = 'From: Jack Sparrow<some@site.com>';
-  $message = 'Name : '.$_POST['name'] .'\nEmail : '.$_POST['email'] .'\n\n'.$_POST['message'];
-  echo mail($receiving_email_address, $_POST['subject'], $message, $headers);
+  $headers = 'From: '.$_POST['email'];
+  $subject = $_POST['name'] .' ('.$_POST['subject'] .')';
+  echo mail($receiving_email_address, $subject, $_POST['message'], $headers);
 ?>
