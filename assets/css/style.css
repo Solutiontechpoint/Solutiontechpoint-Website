@@ -376,6 +376,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+#hero .slogan {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
@@ -1617,6 +1625,10 @@ section {
   color: #4668a2;
   content: "/";
 }
+
+.gmap_canvas {overflow:hidden;background:none!important;height:290px;width:100%;}
+
+.mapouter{position:relative;text-align:right;}
 
 /*--------------------------------------------------------------
 # Footer
