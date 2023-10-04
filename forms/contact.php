@@ -1,6 +1,6 @@
 <?php
 
-  $receiving_email_address = 'contact@solutiontechpoint.com';
+  $receiving_email_address = 'contact@solutiontechservices.com';
 
   $from = $_POST['name'] .'<'. $_POST['email'] .'>';
   $headers = "" .
