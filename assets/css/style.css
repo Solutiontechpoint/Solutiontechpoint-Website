@@ -150,7 +150,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-weight: 700;
+  font-weight: 900;
   /* color: #1f2021; */
   color: #eea501;
   text-transform: uppercase;
@@ -175,7 +175,7 @@ h1,
 .h1 {
   font-family: 'Abel', sans-serif;
   font-size: 46px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 2px;
   color: #eea501;
 
@@ -211,7 +211,7 @@ h6 {
 
 p {
   margin: 0;
-  font-weight: 1000;
+  font-weight: 500;
   color: #1f4365;
 }
 
@@ -222,9 +222,9 @@ p {
 .title-section p {
   font-size: 15px;
   line-height: 26px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1.5px;
-  font-weight: 1000;
+  font-weight: 500;
   color: #1f4365;
 }
 
@@ -628,7 +628,7 @@ p.hero {
 .hero-content h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 43px;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 8px;
   text-transform: uppercase;
   color: #eea501;
@@ -693,7 +693,7 @@ ul.caption-slides li {
 .process-work h4 {
   letter-spacing: 2px;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 900;
   margin-bottom: 15px;
 }
 
@@ -728,7 +728,7 @@ ul.caption-slides li {
 }
 
 .big-title-sec .big-title {
-  font-weight: 300;
+  font-weight: 900;
   text-transform: none;
   font-size: 24px;
   color: #1f4365;
@@ -740,7 +740,7 @@ ul.caption-slides li {
   margin-top: 0;
   margin-bottom: 28px;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 900;
   line-height: 1.45;
   text-transform: none;
   color: #eea501;
@@ -750,7 +750,7 @@ ul.caption-slides li {
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 1.7px;
-  font-weight: 1000;
+  font-weight: 500;
 }
 
 .big-title-sec .view-more {
@@ -834,7 +834,7 @@ ul.soon-list li {
 .soon-box-content h6 {
   margin-top: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -1153,7 +1153,7 @@ span.percentfactor {
 #about-team p,
 #personal-skills p {
   line-height: 26px;
-  font-weight: 1000;
+  font-weight: 500;
   color: #1f4365;
 }
 
@@ -1166,7 +1166,7 @@ span.percentfactor {
 #about-team h3,
 #personal-skills h3 {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 900;
   letter-spacing: 1.6px;
 }
 
@@ -1916,7 +1916,7 @@ ul.features-list li {
 .features-box-content h6 {
   margin-top: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -1941,7 +1941,7 @@ ul.features-list li {
 #features-app-section-1 p {
   line-height: 26px;
   font-size: 14px;
-  font-weight: 1000;
+  font-weight: 500;
   color: #1f4365;
 }
 
@@ -2046,7 +2046,7 @@ ul.features-list li {
   margin-top: 15px;
   margin-bottom: 20px;
   text-transform: none;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 .offer-icon {
@@ -2756,7 +2756,7 @@ ul.features-app-list li {
 #features-app-section-2 .feature-app-box-content h6 {
   margin-top: 0;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 2px;
   margin-bottom: 15px;
 }
@@ -2765,7 +2765,7 @@ ul.features-app-list li {
   line-height: 24px;
   font-size: 13px;
   letter-spacing: 1.2px;
-  font-weight: 1000;
+  font-weight: 500;
   color: #1f4365;
 }
 
@@ -3851,7 +3851,7 @@ p.copyright {
 }
 
 .member-team img {
-  height: 250px;
+  height: 300px;
   /* Fixed height for all images */
   width: 100%;
   object-fit: cover;
