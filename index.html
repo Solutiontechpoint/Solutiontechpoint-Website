@@ -34,7 +34,25 @@
   <meta name="robots" content="index, follow" />
 
   <link rel="icon" href="https://solutiontechservices.com/assets/images/logo.png" type="image/png">
-
+<!-- HuryBot Chatbot Widget -->
+<script src="https://hurybot.com/widget/chatbot.js"></script>
+<script>
+  HuryBot.init({
+    apiKey: "YOUR_API_KEY",
+    chatbotSlug: "alerfo-bot",
+    themeColor: "#2563eb",
+    position: "bottom-right",
+    title: "AI Assistant",
+    placeholder: "Ask me anything...",
+    welcomeMessage: "\ud83d\udc4b Hi there! How can I help you today?",
+    showSources: true,
+    bottomOffset: 0,
+    suggestedQuestions: [],
+    autoOpen: 0,
+    enableHumanHandoff: true,
+    apiBase: "https://hurybot.com/api/v1"
+  });
+</script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
