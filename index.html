@@ -7,6 +7,14 @@
 <html lang="en">
 
 <head>
+	<!-- Add to every page that embeds the widget -->
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src  'self' 'unsafe-inline' https://hurybot.com;
+  connect-src 'self' https://hurybot.com;
+  style-src   'self' 'unsafe-inline';
+  img-src     'self' data:;
+">
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -144,7 +152,33 @@
   <!-- Include Bootstrap's JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+	<!-- HuryBot Chatbot Widget -->
+<script src="https://hurybot.com/widget/chatbot.js"></script>
+<script>
+  HuryBot.init({
+    apiKey: hurybot_aA1RFahdkQsYZr8HQ2NPoRCyoPIs1cjQf_GXys_XTbA
+    chatbotSlug: "sts",
+    themeColor: "#d97706",
+    position: "bottom-right",
+    title: "AI Assistant",
+    placeholder: "Ask me anything...",
+    welcomeMessage: "\ud83d\udc4b Hi there! How can I help you today?",
+    showSources: true,
+    bottomOffset: 0,
+    suggestedQuestions: [],
+    autoOpen: 0,
+    leadCapture: true,
+    leadCaptureFields: ["name", "email", "phone", "company"],
+    endRating: false,
+    triggerScrollPercent: 0,
+    triggerUrlPattern: "",
+    enableHumanHandoff: true,
+    apiBase: "https://hurybot.com/api/v1"
+  });
+</script>
+
 </head>
+	
 
 <body>
 
